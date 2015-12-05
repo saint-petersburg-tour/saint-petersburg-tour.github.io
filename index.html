@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <!--    -------------Web Page design by------------------------------------------------ -->
+  <!--     \        /\        /  |¯¯¯¯¯  |\    |       |    |  |¯¯¯¯¯|  |\    |  |¯¯¯¯¯¯ -->
+  <!--      \      /  \      /   |       | \   |       |    |  |     |  | \   |  | -->
+  <!--       \    /    \    /    |--——-  |  \  |       |----|  |     |  |  \  |  |   ____ -->
+  <!--        \  /      \  /     |       |   \ |       |    |  |     |  |   \ |  |      | -->
+  <!--         \/        \/      |_____  |    \|       |    |  |_____|  |    \|  |______| -->
+  <!-- I'm from Taiwan, nice to meet you.:) -->
+  <head>
+    <meta charset='UTF-8'>
+    <meta content='Personal tour guiding services in Saint Petersburg, Russia' name='keywords'>
+    <title>
+      Home
+      | Personal tour guiding services in Saint Petersburg, Russia
+    </title>
+    <!-- cdn -->
+    <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.2/jquery.simpleWeather.min.js'></script>
+    <script src="js/jquery.scrollto.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <link href="css/all.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class='bg'></div>
+      <div class='bg-cover'></div>
+      <nav id='nav-top-bar'>
+        <div class='nav-div-top-bar' id='nav-bar-left'>
+          <div class='ribbon-bar ribbon-bar-top'></div>
+          <div class='ribbon-bar ribbon-bar-bottom'></div>
+        </div>
+        <div class='nav-div-top-bar' id='nav-bar-right'>
+          <div class='ribbon-bar ribbon-bar-top'></div>
+          <div class='ribbon-bar ribbon-bar-bottom'></div>
+        </div>
+        <div id='logo_big'>
+          <a href='index.html'>
+            <img alt='' src='img/logo.png'>
+          </a>
+        </div>
+      </nav>
+      <div id='lang_switch'></div>
+      <nav id='info'>
+        <h1>Your personal professional tour service.</h1>
+        <h2>No lines. Tours and access to exclusive exhibits</h2>
+      </nav>
+      <a href='' id='more'>
+        <p>Learn More</p>
+        <div>
+          <div class='arrow'></div>
+        </div>
+      </a>
+      <nav class='nav-absolute' id='nav-fixed'>
+        <link href="css/partial/header-fixed.css" rel="stylesheet" />
+        <a href='index.html' id='logo_aside'>
+          <img alt='' src='img/logo_horizontal.png'>
+        </a>
+        <ul>
+          <li>
+            <a href="about.html">About us</a>
+          </li>
+          <li>
+            <a href="tour.html">Tour guiding</a>
+          </li>
+          <li>
+            <a href="transportation.html">Transportation</a>
+          </li>
+          <li>
+            <a href="apartment.html">Apartments</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script src="js/index.js"></script>
+    <link href="css/index.css" rel="stylesheet" />
+    <script>
+      $(function() {
+        $('header .bg').parallax("0%", -0.4);
+        $('#intro .bg').parallax("0%", -0.4);
+      });
+    </script>
+    <section>
+      <article id='services'>
+        <div>
+          <h1>We offer</h1>
+          <ul>
+            <li>
+              <img alt='' src='img/service-1.png'>
+                <p>Professional and personalized English Tour-guiding.</p>
+              </img>
+            </li>
+            <li class='segment'></li>
+            <li>
+              <img alt='' src='img/service-2.png'>
+                <p>Convenient and Safe Transportation.</p>
+              </img>
+            </li>
+            <li class='segment'></li>
+            <li>
+              <img alt='' src='img/service-3.png'>
+                <p>Comfortable Department.</p>
+              </img>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article id='intro'>
+        <div class='bg'></div>
+        <div class='wrap'>
+          <h1>Welcome to Saint Petersburg, Russia!</h1>
+          <p>Saint Petersburg (Russian: Санкт-Петербург) is the second largest city in Russia, politically incorporated as a federal subject (a federal city).</p>
+          <p>It is located on the Neva River at the head of the Gulf of Finland on the Baltic Sea.Saint Petersburg is often described as the most Westernized city of Russia, as well as its cultural capital.It is the northernmost city in the world with a population of over one million.</p>
+        </div>
+      </article>
+      <article id='local'>
+        <div id='title'>
+          <h2>
+            Tour
+            <br>
+              infomation
+            </br>
+          </h2>
+        </div>
+        <div id='weather'></div>
+        <div id='link'>
+          <a href='http://www.visit-petersburg.ru/en/'>
+            <img alt='' src='img/1320x650top25en.jpg.1320x650_q100_crop_upscale.jpg'>
+          </a>
+        </div>
+      </article>
+    </section>
+    <link href="css/partial/footer.css" rel="stylesheet" />
+    <footer>
+      <article id='contact'>
+        <h1>Contact us</h1>
+        <div class='wrap'>
+          <div id='contact-box'>
+            <h2>Keep in touch : )</h2>
+            <form action='mailto:hao840915@gmail.com' method='POST'>
+              <input name='name' placeholder='Name' type='text'>
+                <br>
+                  <input name='email' placeholder='Email' type='email'>
+                    <br>
+                      <textarea name='message' placeholder='Message' rows='5'></textarea>
+                      <br>
+                        <input type='submit'>
+                      </br>
+                    </br>
+                  </input>
+                </br>
+              </input>
+            </form>
+          </div>
+          <ul>
+            <li>
+              <img alt='' src='img/email.png'>
+                <p>petersburgtours.info@mail.ru</p>
+                <p>peter.hao@mail.ru</p>
+              </img>
+            </li>
+            <li class='segment'></li>
+            <li>
+              <img alt='' src='img/tel.png'>
+                <p>+7 921 6552159</p>
+              </img>
+            </li>
+          </ul>
+        </div>
+        <div class='clear'></div>
+      </article>
+      <div id='credit'>
+        © ALL RIGHTS RESERVED | DESIGN BY
+        <a href='https://www.facebook.com/Wayne.Huang.g'>WEN-HONG HUANG</a>
+      </div>
+    </footer>
+  </body>
+</html>
