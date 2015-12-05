@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <!--    -------------Web Page design by------------------------------------------------ -->
+  <!--     \        /\        /  |¯¯¯¯¯  |\    |       |    |  |¯¯¯¯¯|  |\    |  |¯¯¯¯¯¯ -->
+  <!--      \      /  \      /   |       | \   |       |    |  |     |  | \   |  | -->
+  <!--       \    /    \    /    |--——-  |  \  |       |----|  |     |  |  \  |  |   ____ -->
+  <!--        \  /      \  /     |       |   \ |       |    |  |     |  |   \ |  |      | -->
+  <!--         \/        \/      |_____  |    \|       |    |  |_____|  |    \|  |______| -->
+  <!-- I'm from Taiwan, nice to meet you.:) -->
+  <head>
+    <meta charset='UTF-8'>
+    <meta content='Personal tour guiding services in Saint Petersburg, Russia' name='keywords'>
+    <title>
+      About us
+      | Personal tour guiding services in Saint Petersburg, Russia
+    </title>
+    <!-- cdn -->
+    <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
+    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.2/jquery.simpleWeather.min.js'></script>
+    <script src="js/jquery.scrollto.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <link href="css/all.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      
+      <nav class='nav-fixed' id='nav-fixed'>
+        <link href="css/partial/header-fixed.css" rel="stylesheet" />
+        <a href='index.html' id='logo_aside'>
+          <img alt='' src='img/logo_horizontal.png'>
+        </a>
+        <ul>
+          <li>
+            <a href="about.html">About us</a>
+          </li>
+          <li>
+            <a href="tour.html">Tour guiding</a>
+          </li>
+          <li>
+            <a href="transportation.html">Transportation</a>
+          </li>
+          <li>
+            <a href="apartment.html">Apartments</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <script>
+      $(function() {
+        $('#about .bg').parallax("0%", -0.4);
+        $('#service .bg').parallax("0%", -0.4);
+      });
+    </script>
+    <link href="css/about.css" rel="stylesheet" />
+    <section>
+      <article id='about'>
+        <div class='bg'>
+          <div class='bg-cover'></div>
+          <h1>About us</h1>
+        </div>
+        <div class='wrap'>
+          <div class='description left relative'>
+            <div class='middle-center'>
+              <p>SAINT-PETERSBURG TOURS specializing in quality accommodation and unparalleled personalized tour-guiding service provides tour guiding services, transportation and comfortable apartments in St. Petersburg.</p>
+              <p>Founded in 1998 by a Russian who received his high-school and University education in the US, Russian Tours combines Western professionalism with the uniqueness of the customized tour guiding opportunities in St. Petersburg, Russia.</p>
+            </div>
+          </div>
+          <div class='img-area right relative'>
+            <h1 class='middle-center'>
+              ABOUT
+              <br>
+                SAINT
+                <br>
+                  PETERSBURG
+                  <br>
+                    TOURS
+                  </br>
+                </br>
+              </br>
+            </h1>
+          </div>
+          <div class='clear'></div>
+        </div>
+      </article>
+      <article id='service'>
+        <div class='bg'>
+          <div class='bg-cover'></div>
+          <h1>Our services</h1>
+        </div>
+        <div class='wrap'>
+          <h1>Unique services</h1>
+          <ul>
+            <li>
+              <img alt='' src='img/service-1.png'>
+                <p>Professional and personalized English Tour-guiding.</p>
+              </img>
+            </li>
+            <li class='segment'></li>
+            <li>
+              <img alt='' src='img/service-2.png'>
+                <p>Convenient and Safe Transportation.</p>
+              </img>
+            </li>
+            <li class='segment'></li>
+            <li>
+              <img alt='' src='img/service-3.png'>
+                <p>Comfortable Apartment.</p>
+              </img>
+            </li>
+          </ul>
+        </div>
+      </article>
+      <article id='social'>
+        <div id='left-img'></div>
+        <div id='right-slogan'>
+          <div>We are sociable, easy going, fun and we love what we do!</div>
+        </div>
+        <div class='clear'></div>
+      </article>
+      <article id='basic'>
+        <div class='wrap'>
+          <h1 class='text-center'>What we can do for you</h1>
+          <table>
+            <tr>
+              <td class='table-title'>PERSONALIZED</td>
+              <td class='table-content'>We can draft an agenda for you depending on your interests and goals for the trip to Saint-Petersburg.</td>
+            </tr>
+            <tr>
+              <td class='table-title'>IN ENGLISH</td>
+              <td class='table-content'>Give professional tours in English.</td>
+            </tr>
+            <tr>
+              <td class='table-title'>BOOK TICKETS</td>
+              <td class='table-content'>Book the tickets to museums/ballet/theaters/restaurants.</td>
+            </tr>
+            <tr>
+              <td class='table-title'>MAKE RESERVATIONS</td>
+              <td class='table-content'>Provide accommodations or make hotel reservations.</td>
+            </tr>
+            <tr>
+              <td class='table-title'>TRANSPORTATION</td>
+              <td class='table-content'>Provide transportation and transfer services to and from the airport or the railroad station.</td>
+            </tr>
+            <tr>
+              <td class='table-title'>INTERPRETATION</td>
+              <td class='table-content'>Provide interpretation services.</td>
+            </tr>
+          </table>
+        </div>
+      </article>
+    </section>
+    <link href="css/partial/footer.css" rel="stylesheet" />
+    <footer>
+      <article id='contact'>
+        <h1>Contact us</h1>
+        <div class='wrap'>
+          <div id='contact-box'>
+            <h2>Keep in touch : )</h2>
+            <form action='mailto:hao840915@gmail.com' method='POST'>
+              <input name='name' placeholder='Name' type='text'>
+                <br>
+                  <input name='email' placeholder='Email' type='email'>
+                    <br>
+                      <textarea name='message' placeholder='Message' rows='5'></textarea>
+                      <br>
+                        <input type='submit'>
+                      </br>
+                    </br>
+                  </input>
+                </br>
+              </input>
+            </form>
+          </div>
+          <ul>
+            <li>
+              <img alt='' src='img/email.png'>
+                <p>petersburgtours.info@mail.ru</p>
+                <p>peter.hao@mail.ru</p>
+              </img>
+            </li>
+            <li class='segment'></li>
+            <li>
+              <img alt='' src='img/tel.png'>
+                <p>+7 921 6552159</p>
+              </img>
+            </li>
+          </ul>
+        </div>
+        <div class='clear'></div>
+      </article>
+      <div id='credit'>
+        © ALL RIGHTS RESERVED | DESIGN BY
+        <a href='https://www.facebook.com/Wayne.Huang.g'>WEN-HONG HUANG</a>
+      </div>
+    </footer>
+  </body>
+</html>
