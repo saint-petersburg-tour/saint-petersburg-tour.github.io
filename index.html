@@ -14,28 +14,15 @@
       Home
       | Personal tour guiding services in Saint Petersburg, Russia
     </title>
-    <!-- cdn -->
-    <script src='https://code.jquery.com/jquery-2.1.3.min.js'></script>
-    <script src='//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.2/jquery.simpleWeather.min.js'></script>
-    <script src="js/jquery.scrollto.min.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
     <link href="css/all.css" rel="stylesheet" />
-    <!-- GA -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
-      ga('create', 'UA-71059860-1', 'saint-petersburg-tour.github.io');
-      ga('create', 'UA-71059860-1', 'auto');
-      ga('require', 'displayfeatures');
-      ga('require', 'linkid', 'linkid.js');
-      ga('send', 'pageview');
-    </script>
-    <!-- End of GA -->
   </head>
   <body>
+    <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
+    <script src="js/jquery.scrollto.min.js"></script>
+    <script src="js/jquery.parallax-1.1.3.js"></script>
+    <script>
+      window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')
+    </script>
     <header>
       <div class='bg'></div>
       <div class='bg-cover'></div>
@@ -86,14 +73,7 @@
         </ul>
       </nav>
     </header>
-    <script src="js/index.js"></script>
     <link href="css/index.css" rel="stylesheet" />
-    <script>
-      $(function() {
-        $('header .bg').parallax("0%", -0.4);
-        $('#intro .bg').parallax("0%", -0.4);
-      });
-    </script>
     <section>
       <article id='services'>
         <div>
@@ -143,6 +123,13 @@
           </a>
         </div>
       </article>
+      <script src='//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.2/jquery.simpleWeather.min.js'></script>
+      <script src="js/index.js"></script>
+      <script>
+        
+        $('header .bg').parallax("0%", -0.4);
+        $('#intro .bg').parallax("0%", -0.4);
+      </script>
     </section>
     <link href="css/partial/footer.css" rel="stylesheet" />
     <footer>
