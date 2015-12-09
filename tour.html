@@ -103,7 +103,7 @@
         <div class='wrap'>
           <div id='contact-box'>
             <h2>Keep in touch : )</h2>
-            <form action='javascript: sendForm()' target='_self'>
+            <form action='javascript: sendForm()' id='contact-form' target='_self'>
               <input name='name' placeholder='Name' type='text'>
               <br>
               <input name='email' placeholder='Email' type='email'>
@@ -149,9 +149,17 @@
           statusCode: {
             0: function() {
               console.log('Success');
+              $("input[name='name']").val("");
+              $("input[name='email']").val("");
+              $("textarea[name='message']").val("");
+              $('#contact-form').replaceWith('<h2>Thanks for your request!</h2>');
             },
             200: function() {
               console.log('Success');
+              $("input[name='name']").val("");
+              $("input[name='email']").val("");
+              $("textarea[name='message']").val("");
+              $('#contact-form').replaceWith('<h2>Thanks for your request!</h2>');
             }
           }
         });
