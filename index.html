@@ -1,232 +1,85 @@
-<!DOCTYPE html>
-<html lang='en'>
-  <!-- .     _____            _                      _   _            . -->
-  <!-- .    |  __ \          (_)                    | | | |           . -->
-  <!-- .    | |  | | ___  ___ _  __ _ _ __   ___  __| | | |__  _   _  . -->
-  <!-- .    | |  | |/ _ \/ __| |/ _` | '_ \ / _ \/ _` | | '_ \| | | | . -->
-  <!-- .    | |__| |  __/\__ \ | (_| | | | |  __/ (_| | | |_) | |_| | . -->
-  <!-- .    |_____/ \___||___/_|\__, |_| |_|\___|\__,_| |_.__/ \__, | . -->
-  <!-- .                         __/ |                          __/ | . -->
-  <!-- .                        |___/                          |___/  . -->
-  <!-- . -->
-  <!-- .     __      __                           __  __                              __  __                                       . -->
-  <!-- .    /\ \  __/\ \                         /\ \/\ \                            /\ \/\ \                                      . -->
-  <!-- .    \ \ \/\ \ \ \     __    ___          \ \ \_\ \    ___     ___      __    \ \ \_\ \  __  __     __      ___      __     . -->
-  <!-- .     \ \ \ \ \ \ \  /'__`\/' _ `\  _______\ \  _  \  / __`\ /' _ `\  /'_ `\   \ \  _  \/\ \/\ \  /'__`\  /' _ `\  /'_ `\   . -->
-  <!-- .      \ \ \_/ \_\ \/\  __//\ \/\ \/\______\\ \ \ \ \/\ \L\ \/\ \/\ \/\ \L\ \   \ \ \ \ \ \ \_\ \/\ \L\.\_/\ \/\ \/\ \L\ \  . -->
-  <!-- .       \ `\___x___/\ \____\ \_\ \_\/______/ \ \_\ \_\ \____/\ \_\ \_\ \____ \   \ \_\ \_\ \____/\ \__/.\_\ \_\ \_\ \____ \ . -->
-  <!-- .        '\/__//__/  \/____/\/_/\/_/          \/_/\/_/\/___/  \/_/\/_/\/___L\ \   \/_/\/_/\/___/  \/__/\/_/\/_/\/_/\/___L\ \. -->
-  <!-- .                                                                       /\____/                                      /\____/. -->
-  <!-- .                                                                       \_/__/                                       \_/__/ . -->
-  <!-- .    I'm from Taiwan, nice to meet you.:) -->
-  <head>
-    <meta charset='UTF-8'>
-    <meta content='Personal tour guiding services in Saint Petersburg, Russia' name='keywords'>
-    <title>
-      Home
-      | Personal tour guiding services in Saint Petersburg, Russia
-    </title>
-    <link href="css/all.css" rel="stylesheet" />
-  </head>
-  <body>
-    <script src='//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js'></script>
-    <script src="js/jquery.scrollto.min.js"></script>
-    <script src="js/jquery.parallax-1.1.3.js"></script>
-    <script>
-      window.jQuery || document.write('<script src="js/jquery-2.1.1.min.js"><\/script>')
-    </script>
-    <header>
-      <div class='bg'></div>
-      <div class='bg-cover'></div>
-      <nav id='nav-top-bar'>
-        <div class='nav-div-top-bar' id='nav-bar-left'>
-          <div class='ribbon-bar ribbon-bar-top'></div>
-          <div class='ribbon-bar ribbon-bar-bottom'></div>
-        </div>
-        <div class='nav-div-top-bar' id='nav-bar-right'>
-          <div class='ribbon-bar ribbon-bar-top'></div>
-          <div class='ribbon-bar ribbon-bar-bottom'></div>
-        </div>
-        <div id='logo_big'>
-          <a href='index.html'>
-            <img alt='' src='img/logo.png'>
-          </a>
-        </div>
-      </nav>
-      <div id='lang_switch'></div>
-      <nav id='info'>
-        <h1>Your personal professional tour service.</h1>
-        <h2>No lines. Tours and access to exclusive exhibits</h2>
-      </nav>
-      <a href='' id='more'>
-        <p>Learn More</p>
-        <div>
-          <div class='arrow'></div>
-        </div>
-      </a>
-      <nav class='nav-absolute' id='nav-fixed'>
-        <link href="css/partial/header-fixed.css" rel="stylesheet" />
-        <a href='index.html' id='logo_aside'>
-          <img alt='' src='img/logo_horizontal.png'>
-        </a>
-        <ul>
-          <li>
-            <a onclick="ga('send', 'event', 'button', 'click', 'Nav About us');" href="about.html">About us</a>
-          </li>
-          <li>
-            <a onclick="ga('send', 'event', 'button', 'click', 'Nav Tour guiding');" href="tour.html">Tour guiding</a>
-          </li>
-          <li>
-            <a onclick="ga('send', 'event', 'button', 'click', 'Nav Transportation');" href="transportation.html">Transportation</a>
-          </li>
-          <li>
-            <a onclick="ga('send', 'event', 'button', 'click', 'Nav Apartments');" href="apartment.html">Apartments</a>
-          </li>
-        </ul>
-      </nav>
-    </header>
-    <link href="css/index.css" rel="stylesheet" />
-    <section>
-      <article id='services'>
-        <div>
-          <h1>We offer</h1>
-          <ul>
-            <li>
-              <img alt='' src='img/service-1.png'>
-                <p>Professional and personalized English Tour-guiding.</p>
-              </img>
-            </li>
-            <li class='segment'></li>
-            <li>
-              <img alt='' src='img/service-2.png'>
-                <p>Convenient and Safe Transportation.</p>
-              </img>
-            </li>
-            <li class='segment'></li>
-            <li>
-              <img alt='' src='img/service-3.png'>
-                <p>Comfortable Accommodations.</p>
-              </img>
-            </li>
-          </ul>
-        </div>
-      </article>
-      <article id='intro'>
-        <div class='bg'></div>
-        <div class='wrap'>
-          <h1>Welcome to Saint Petersburg, Russia!</h1>
-          <p>Saint Petersburg is considered to be one of the most beautiful cities in the world.</p>
-          <p>It is located on one of the main Russian waterways - the Neva River and is often described as “Venice of the North”.</p>
-          <p>We will do our best to make your experience unforgettable!</p>
-        </div>
-      </article>
-      <article id='local'>
-        <div id='title'>
-          <h2>
-            Tour
-            <br>
-              infomation
-            </br>
-          </h2>
-        </div>
-        <div id='weather'></div>
-        <div id='link'>
-          <a href='http://www.visit-petersburg.ru/en/'>
-            <img alt='' src='img/1320x650top25en.jpg.1320x650_q100_crop_upscale.jpg'>
-          </a>
-        </div>
-      </article>
-      <script src='//cdnjs.cloudflare.com/ajax/libs/jquery.simpleWeather/3.0.2/jquery.simpleWeather.min.js'></script>
-      <script src="js/index.js"></script>
-      <script>
-        $(function() {
-          $('header .bg').parallax("0%", -0.4);
-          $('#intro .bg').parallax("0%", -0.4);
-        });
-      </script>
-    </section>
-    <link href="css/partial/footer.css" rel="stylesheet" />
-    <footer>
-      <article id='contact'>
-        <h1>Contact us</h1>
-        <div class='wrap'>
-          <div id='contact-box'>
-            <h2>Keep in touch : )</h2>
-            <form action='javascript: sendForm()' id='contact-form' target='_self'>
-              <input name='name' placeholder='Name' type='text'>
-              <br>
-              <input name='email' placeholder='Email' type='email'>
-              <br>
-              <textarea name='message' placeholder='Message' rows='5'></textarea>
-              <br>
-              <input type='submit' value='Send'>
-            </form>
-          </div>
-          <ul>
-            <li>
-              <img alt='' src='img/email.png'>
-                <p>petersburgtours.info@mail.ru</p>
-                <p>peter.hao@mail.ru</p>
-              </img>
-            </li>
-            <li class='segment'></li>
-            <li>
-              <img alt='' src='img/tel.png'>
-                <p>+7 921 6552159</p>
-              </img>
-            </li>
-          </ul>
-        </div>
-        <div class='clear'></div>
-      </article>
-      <div id='credit'>
-        © ALL RIGHTS RESERVED | DESIGN BY
-        <a href='https://www.facebook.com/Wayne.Huang.g'>WEN-HONG HUANG</a>
-      </div>
-    </footer>
-    <script>
-      function sendForm(){
-        var name = $("input[name='name']").val();
-        var email = $("input[name='email']").val();
-        var message = $("textarea[name='message']").val();
-      
-        $.ajax({
-          url: "https://docs.google.com/forms/d/1Bj9ipa3slDFz0aPB7e1r-4Qj4Hz1uieDhELPePQtyWU/formResponse",
-          data: {"entry.1514067373": name, "entry.995719700": email, "entry.761332212": message},
-          type: "POST",
-          dataType: "xml",
-          statusCode: {
-            0: function() {
-              console.log('Success');
-              $("input[name='name']").val("");
-              $("input[name='email']").val("");
-              $("textarea[name='message']").val("");
-              $('#contact-form').replaceWith('<h2>Thanks for your request!</h2>');
-            },
-            200: function() {
-              console.log('Success');
-              $("input[name='name']").val("");
-              $("input[name='email']").val("");
-              $("textarea[name='message']").val("");
-              $('#contact-form').replaceWith('<h2>Thanks for your request!</h2>');
-            }
-          }
-        });
-      }
-    </script>
-    <!-- GA -->
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      
-      ga('create', 'UA-71059860-1', 'saint-petersburg-tour.github.io');
-      ga('create', 'UA-71059860-1', 'auto');
-      ga('require', 'displayfeatures');
-      ga('require', 'linkid', 'linkid.js');
-      ga('send', 'pageview');
-    </script>
-    <!-- End of GA -->
-  </body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="1404.13">
+  <style type="text/css">
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000; min-height: 14.0px}
+    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    p.p4 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    p.p5 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee; min-height: 14.0px}
+    p.p7 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    p.p9 {margin: 0.0px 0.0px 12.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li2 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #0000ee; -webkit-text-stroke: #0000ee}
+    li.li7 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000; -webkit-text-stroke: #000000}
+    li.li8 {margin: 0.0px 0.0px 0.0px 0.0px; line-height: 14.0px; font: 12.0px Times; color: #000000}
+    span.s1 {font-kerning: none}
+    span.s2 {text-decoration: underline ; font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    span.s3 {text-decoration: underline ; font-kerning: none}
+    span.s4 {font-kerning: none; color: #0000ee; -webkit-text-stroke: 0px #0000ee}
+    span.s5 {-webkit-text-stroke: 0px #000000}
+    span.s6 {font-kerning: none; color: #000000; -webkit-text-stroke: 0px #000000}
+    ul.ul1 {list-style-type: disc}
+  </style>
+</head>
+<body>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><a href="file:///Volumes/DataHD/Users/WayneHuang/WebDev/st-petersburg/build/index.html"><span class="s2"><span class="Apple-converted-space"> </span></span></a></span></p>
+<p class="p1"><span class="s1"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Your personal professional tour service.</b></span></h1>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>No lines. Tours and access to exclusive exhibits</b></span></h2>
+<p class="p4"><span class="s3">Learn More</span></p>
+<p class="p5"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><a href="file:///Volumes/DataHD/Users/WayneHuang/WebDev/st-petersburg/build/index.html"><span class="s4"></span></a></span></p>
+<ul class="ul1">
+  <li class="li2"><span class="s5"><a href="file:///Volumes/DataHD/Users/WayneHuang/WebDev/st-petersburg/build/about.html"><span class="s3">About us</span></a></span><span class="s6"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li2"><span class="s5"><a href="file:///Volumes/DataHD/Users/WayneHuang/WebDev/st-petersburg/build/tour.html"><span class="s3">Tour guiding</span></a></span><span class="s6"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li2"><span class="s5"><a href="file:///Volumes/DataHD/Users/WayneHuang/WebDev/st-petersburg/build/transportation.html"><span class="s3">Transportation</span></a></span><span class="s6"><span class="Apple-converted-space"> </span></span></li>
+  <li class="li2"><span class="s5"><a href="file:///Volumes/DataHD/Users/WayneHuang/WebDev/st-petersburg/build/apartment.html"><span class="s3">Apartments</span></a></span><span class="s6"><span class="Apple-converted-space"> </span></span></li>
+</ul>
+<h1 style="margin: 0.0px 0.0px 14.0px 0.0px; line-height: 17.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>We offer</b></span></h1>
+<ul class="ul1">
+  <li class="li7"><span class="s5"></span><span class="s1"> Professional and personalized English Tour-guiding.<br>
+</span></li>
+  <li class="li8"></li>
+  <li class="li7"><span class="s5"></span><span class="s1"> Convenient and Safe Transportation.<br>
+</span></li>
+  <li class="li8"></li>
+  <li class="li7"><span class="s5"></span><span class="s1"> Comfortable Accommodations.<br>
+</span></li>
+</ul>
+<p class="p1"><span class="s1"></span><br></p>
+<h1 style="margin: 0.0px 0.0px 14.0px 0.0px; line-height: 17.0px; font: 14.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Welcome to Saint Petersburg, Russia!</b></span></h1>
+<p class="p9"><span class="s1">Saint Petersburg is considered to be one of the most beautiful cities in the world.</span></p>
+<p class="p9"><span class="s1">It is located on one of the main Russian waterways - the Neva River and is often described as “Venice of the North”.</span></p>
+<p class="p9"><span class="s1">We will do our best to make your experience unforgettable!</span></p>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Tour <br>
+infomation <br>
+</b></span></h2>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p2"><span class="s1"><a href="http://www.visit-petersburg.ru/en/"><span class="s2"><span class="Apple-converted-space"> </span></span></a></span></p>
+<h1 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Contact us</b></span></h1>
+<h2 style="margin: 0.0px 0.0px 14.9px 0.0px; line-height: 22.0px; font: 18.0px Times; color: #000000; -webkit-text-stroke: #000000"><span class="s1"><b>Keep in touch : )</b></span></h2>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p1"><span class="s1"></span><br></p>
+<ul class="ul1">
+  <li class="li7"><span class="s5"></span><span class="s1"> petersburgtours.info@mail.ru<br>
+peter.hao@mail.ru<br>
+</span></li>
+  <li class="li8"></li>
+  <li class="li7"><span class="s5"></span><span class="s1"> +7 921 6552159<br>
+</span></li>
+</ul>
+<p class="p1"><span class="s1"></span><br></p>
+<p class="p7"><span class="s1">© ALL RIGHTS RESERVED | DESIGN BY <a href="https://www.facebook.com/Wayne.Huang.g"><span class="s2">WEN-HONG HUANG</span></a><span class="Apple-converted-space"> </span></span></p>
+</body>
 </html>
